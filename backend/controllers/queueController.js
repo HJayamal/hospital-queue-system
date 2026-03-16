@@ -1,4 +1,5 @@
 const Queue = require("../models/Queue");
+console.log("Backend API running");
 
 exports.addToQueue = async (req, res) => {
   try {
